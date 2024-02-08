@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 
-def display_images(images, titles, num_rows, num_cols, figsize=(18, 12)):
+def display_images(images, titles, num_rows, num_cols, figsize=(6, 18)):
     fig, axes = plt.subplots(num_rows, num_cols, figsize=figsize)  # Adjust the figure size as needed
 
     for i in range(num_rows):
@@ -20,7 +20,7 @@ img_path = 'cat.jpg'
 original_image = np.array(Image.open(img_path))
 
 # Shred the image vertically
-num_shreds = 120
+num_shreds = 100
 shreds = [original_image[:, i * (original_image.shape[1] // num_shreds): (i + 1) * (original_image.shape[1] // num_shreds), :] for i in range(num_shreds)]
 
 # Specify the order for reconstructing images
