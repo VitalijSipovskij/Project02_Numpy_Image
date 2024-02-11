@@ -1,4 +1,4 @@
-# NUMPY IMAGE RECONSTRUCTION
+# NUMPY IMAGE RECONSTRUCTION AND DISTORTION
 
 This project focuses on reconstructing images using various approaches in Python with the help of NumPy. It implements 
 methods to cut images into strips vertically and horizontally, allows for distortion using sinusoidal wave functions, 
