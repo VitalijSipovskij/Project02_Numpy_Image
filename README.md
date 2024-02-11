@@ -118,10 +118,10 @@ Script for reconstructing images from shredded strips using various approaches.
 File listing project dependencies 
 
 #### [result_distorted_cat_images.jpeg](result_distorted_cat_images.jpeg)
-Result example by using reconstruction_image.py
+Result example by using distortions.py
 
 #### [result_reconstructed_cat_images.jpeg](result_reconstructed_cat_images.jpeg)
-Result example by using distortions.py
+Result example by using reconstruction_image.py
 
 ## SCRIPT
 
