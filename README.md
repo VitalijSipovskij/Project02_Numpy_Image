@@ -5,8 +5,6 @@ methods to cut images into strips vertically and horizontally, allows for distor
 and then reconstructs images from these strips. Additionally, it offers the capability to rotate these strips before 
 reconstructing the image.
 
-## Introduction
-
 Image reconstruction is a fundamental task in image processing and computer vision. It involves breaking down an image
 into smaller parts, manipulating these parts, and then assembling them back together to form a coherent image. This 
 project explores different techniques for image reconstruction using NumPy, including distortion, allowing for 
@@ -79,10 +77,10 @@ Experiment with these configurations to achieve different effects and results in
 
 ## Examples
 
-**[reconstruction_image.py](reconstruction_image.py)**
+Result by using **[reconstruction_image.py](reconstruction_image.py)**
 ![result_reconstructed_cat_images.jpeg](result_reconstructed_cat_images.jpeg)
 
-**[distortions.py](distortions.py)**
+Result by using **[distortions.py](distortions.py)**
 ![result_distorted_cat_images.jpeg](result_distorted_cat_images.jpeg)
 
 ## CODE STRUCTURE
